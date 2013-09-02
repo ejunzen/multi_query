@@ -10,12 +10,12 @@
 
 using namespace std;
 
-const static string redis_addr[] = {"10.4.21.229","ec2-107-20-131-54.compute-1.amazonaws.com","ec2-23-20-124-17.compute-1.amazonaws.com"};
-const static string mysql_addr[] = {"10.4.21.229","ec2-174-129-99-247.compute-1.amazonaws.com","ec2-184-73-13-143.compute-1.amazonaws.com"};
+const static string redis_addr[] = {"10.4.21.229","xxx","xxx"};
+const static string mysql_addr[] = {"10.4.21.229","xxx","xxx"};
 const static int mysql_ports[] = {3306,3306,3306};
 const static int redis_ports[] = {22120,22120,22120};
-static string mysql_users[] = {"root","reader","reader"};
-static string mysql_pwds[] = {"t2mysql","123456","t2123456"};
+static string mysql_users[] = {"xxx","xxx","xxx"};
+static string mysql_pwds[] = {"xxx","xxx","xxx"};
 static string mysql_dbs[] = {"t2","t2","t2"};
 
 namespace Query {
