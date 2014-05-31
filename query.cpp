@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #include <map>
-#include <hiredis.h>
+#include <hiredis/hiredis.h>
 #include <mysql.h>
 #include <cstdio>
 #include <cstdlib>
